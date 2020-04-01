@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Myぽけもんいえるかな？ジェネレーター</title>
+  <link rel ="stylesheet"href ="main.css">
+</head>
+<body>
+  <div class="header">
+    <div class ="container">
+      <div class="header-left">
+        <a href="index.html"><img class="header-logo"src="static/top-pic.jpg"alt="logo"></a>
+
+      </div>
+      <div class="header-right">
+        <a href="index.html">トップ</a>
+        <a href="contact.html">コンタクト</a>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="main-visual">
+    <div class ="container">
+      <img class="title-png"src="static/top-pic.jpg"alt="メインの画像">
+    </div>
+  </div>
+  <div class="main">
+    <div class="container">
+      <div class="introduction">
+        <p>このサイトは「ポケモン言えるかな？(1997年　イマクニ？)」の歌詞に合うよう別のポケモンを選び、
+          すきなポケモンで「ポケモン言えるかな？」が作れるサイトです。(「ポケモン言えるかな？」の原曲は<a href="https://music.oricon.co.jp/php/lyrics/LyricsDisp.php?music=267761" target=_blank>こちら</a>)</p>
+        </div>
+        <form action ="#" id="form">
+          <div class ="imput-form" id ="sakusei">
+            <div class="imput-form-inner">
+              <br>
+              <input class="sakusei" type="submit" value="作成" >
+            </div>
+          </div>
+
+          <p class ="output"></p>
+
+          <div class ="configuration-form-wrapper">
+          <div class ="configuration-form">
+            <div class ="configuration-form-inner">
+              <h3>歌いやすさの設定</h3>
+              <label><input type="radio"name="utaiyasusa"value="random"checked id="weekday">
+                完全ランダム
+              </label>
+              <p>歌いやすさを考慮せずにポケモンを選びます。</p>
+              <br>
+              <label><input type="radio"name="utaiyasusa"value="otosuuitchi"checked id="weekday">
+                原曲と音数を合わせる
+              </label>
+              <p>原曲のポケモンと発音する音の数が同じになるようポケモンを選びます。</p>
+              <p>(例)オコリザル(5音)→ミズゴロウ(5音)</p><p>ピカチュウ(4音)→タブンネ(4音)</p>
+              <br>
+              <label><input type="radio"name="utaiyasusa"value="firstitchi"checked id="weekday">
+                原曲と上2音の母音を合わせる
+              </label>
+              <p>原曲と音数を合わせた上で母音のあったポケモンを選びます。一部のポケモンが出にくくなります。</p>
+              <p>(例)カイリュー(aiu-)→サニーゴ(ai-o)</p><p>ヤドラン(aoan)→アノプス(aouu)</p>
+              <br>
+              <label><input type="radio"name="utaiyasusa"value="lastitchi"checked id="weekday">
+                原曲と下2音の母音を合わせる
+              </label>
+              <p>原曲と母音数を合わせた上で母音のあったポケモンを選びます。歌いやすさはこれが一番のはず！？</p>
+              <p>(例)ピジョン(ion)→ヤドン(aon)</p><p>コダック(oaッu)→ズルッグ(uuッu)</p>
+              <br>
+            </div>
+          </div>
+
+          <div class ="configuration-form">
+            <div class ="configuration-form-inner">
+              <h3>ポケモンの設定</h3>
+              <h4>好きな世代</h4>
+              <p>チェックした世代のポケモンが多く含まれるようになります。</p>
+              <label><input type="radio"name="sedai"value="1"checked id="weekday">
+                第一世代(カントー)
+              </label>
+              <br>
+              <label><input type="radio"name="sedai"value="2"checked id="weekday">
+                第二世代(ジョウト)
+              </label>
+              <br>
+              <label><input type="radio"name="sedai"value="3"checked id="weekday">
+                第三世代(ホウエン)
+              </label>
+              <br>
+              <label><input type="radio"name="sedai"value="4"checked id="weekday">
+                第四世代(シンオウ)
+              </label>
+              <br>
+              <label><input type="radio"name="sedai"value="5"checked id="weekday">
+                第五世代(イッシュ)
+              </label>
+              <br>
+              <label><input type="radio"name="sedai"value="6"checked id="weekday">
+                第六世代(カロス)
+              </label>
+              <br>
+              <label><input type="radio"name="sedai"value="7"checked id="weekday">
+                第七世代(アローラ)
+              </label>
+              <br>
+              <label><input type="radio"name="sedai"value="8"checked id="weekday">
+                第八世代(ガラル)
+              </label>
+              <br>
+              <label><input type="radio"name="sedai"value="9"checked id="weekday">
+                こだわりなし
+              </label>
+              <br>
+              <br>
+
+              <h4>好きなポケモン</h4>
+              <p>曲に入れたいポケモンを5匹まで記入してください</p>
+
+              <input type="text" name="pokemonname1"  value="">
+              <br>
+              <input type="text" name="pokemonname2"  value="">
+              <br>
+              <input type="text" name="pokemonname3"  value="">
+              <br>
+              <input type="text" name="pokemonname4"  value="">
+              <br>
+              <input type="text" name="pokemonname5"  value="">
+
+
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="footer-right">
+            <p>2020/1/20更新</p>
+        </div>
+
+
+
+      </div>
+      <div class="clear">
+
+      </div>
+    </div>
+
+
+  </div>
+  <script src="jquery/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="script/js1.js">
+  </script>
+  <noscript>noJavascript</noscript>
+
+</body>
+
+</html>

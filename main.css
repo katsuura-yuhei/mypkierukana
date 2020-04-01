@@ -1,0 +1,151 @@
+@charset "utf-8";
+*{
+   margin:0;
+   padding:0;
+}
+
+.header{
+    height: 56px;
+    width: 100%;
+    box-shadow: 0 0 10px #cccccc;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+.header-left{
+   float:left;
+}
+
+.header-right{
+    float:right;
+}
+.clear{
+clear: both;
+}
+.header-logo{
+height: 40px;
+margin-top:8px;
+}
+.header-right a{
+    line-height:56px;
+    color: #5a5c5f;
+    margin_left: 5px;
+    font-size: 16px;
+    padding: 16px 5px;
+}
+.output {
+
+
+}
+.header-right a:hover{
+    background-color:#e94c67;
+
+}
+.container{
+max-width:980px;
+padding:0 30px;
+margin-left:auto;
+margin-right:auto;
+
+}
+.title-png{
+width: 100%;
+margin-top:60px;
+}
+.main{
+padding: 80px 0;
+
+}
+.introduction{
+font-size:18px;
+text-align: center
+}
+.imput-form{
+width:100%;
+margin-top:30px;
+}
+.imput-form-inner{
+padding:5px 20px;
+/*background-color:#fff2f8;*/
+border-radius:7px;
+text-align:center;
+}
+
+.imput-form h3{
+font-size:20px;
+font-weight:normal;
+}
+.configuration-form-wrapper{
+  display: flex;
+}
+
+.configuration-form{
+width:50%;
+margin-top: 35px;
+}
+
+.configuration-form-inner{
+padding:15px 20px;
+background-color:#dddddd;
+border-radius:7px;
+margin:0 10px
+}
+
+
+
+
+.select-week input[type="radio"]:checked + label {
+    background-color: #ff6eb2;
+    color: #fff;
+}
+.select-week{
+width:100%;
+display: flex;
+justify-content: center;
+}
+
+.hour-form{
+width:50px;
+height:35px;
+border-radius:3px;
+font-size:20px;
+text-align:center;
+}
+.minutes-form{
+width:50px;
+height:35px;
+border-radius:3px;
+font-size:20px;
+text-align:center;
+}
+
+.sakusei{
+width:200px;
+height:50px;
+border-radius:3px;
+font-size:27px;
+font-weight:bold;
+text-align:center;
+background-color:#aaaaaa;
+color:#ffffff;
+}
+
+
+.footer{
+ height:80px;
+ background-color:#a9aca7;
+ background-repeat: no-repeat;
+ background-size:auto 40px;
+ background-position: left bottom
+}
+
+
+.footer-left{
+ float:left
+
+}
+.footer-right{
+float:right;
+padding-top: 15px;
+color: #ffffff;
+}
