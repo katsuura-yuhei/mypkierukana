@@ -1,5 +1,5 @@
 'use script';
-
+//変えられるか試すために記入
 const pokemon_list_moto =[{NO:1,name:'フシギダネ',type1:'くさ',type2:'どく',sedai:1,otosuu:5,first_two:'ウイ',last_two:'アエ'},
 {NO:2,name:'フシギソウ',type1:'くさ',type2:'どく',sedai:1,otosuu:5,first_two:'ウイ',last_two:'オウ'},
 {NO:3,name:'フシギバナ',type1:'くさ',type2:'どく',sedai:1,otosuu:5,first_two:'ウイ',last_two:'アア'},
